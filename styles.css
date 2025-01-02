@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background-color: #edf6f9;
+    margin-bottom: 40px;
+
+}
+
+.title {
+    font-size: 25px;
+}
+
+#language-select {
+    font-size: 20px;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+body {
+    background-color: #edf2f4;
+}
+
+#centering-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(209, 214, 213);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.repo-display {
+    font-size: 20px;
+    text-align: center;
+}
